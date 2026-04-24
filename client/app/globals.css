@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #050505;
+  --purple: #7c3aed;
+}
+
+body {
+  background-color: var(--bg);
+  color: #a1a1a1; /* Slightly muted for that premium look */
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Single premium grain effect */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* The dot glow for your name */
+.text-glow {
+  text-shadow: 0 0 15px rgba(124, 58, 237, 0.6);
+}
+
+.cursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: var(--purple);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: transform 0.1s ease-out;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+::selection {
+  background: var(--purple);
+  color: white;
+}
+
+.acob-link {
+  color: #7c3aed;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.acob-link:hover {
+  color: #a78bfa;
+  text-shadow: 0 0 8px #7c3aed, 0 0 18px #7c3aed;
+}
+
+/* globals.css */
+html {
+  scroll-behavior: smooth;
+}
