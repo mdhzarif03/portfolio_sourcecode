@@ -27,17 +27,7 @@
 
 ---
 
-## 🌑 The Aesthetic
-This project isn't just a portfolio; it's a digital experience. Drawing inspiration from modern AI interfaces and brutalist minimalism, it features:
-
-* **Rapid Terminal Cursor:** A high-energy, pulsing cursor that signifies active development.
-* **Scroll-Triggered Selection:** Words like **"iconic"** are highlighted dynamically as you navigate.
-* **Noise Texture Overlay:** A subtle grain effect to give the deep blacks depth and character.
-* **Bento-style Grid:** Organized "Selected Work" and "Credentials" cards for a clean hierarchy.
-
----
-
-## 🛠️ The Stack
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXZueXJueXZueXJueXZueXJueXZueXJueXZueXJueXZueXJuJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/L1f99zS62Y00M2H39O/giphy.gif" width="30"> 🛠️ The Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -50,7 +40,7 @@ This project isn't just a portfolio; it's a digital experience. Drawing inspirat
 
 ---
 
-## 🚀 Deployment
+## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXZueXJueXZueXJueXZueXJueXZueXJueXZueXJueXZueXJuJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/mC6S28C7Y7YhMOn2zU/giphy.gif" width="30"> 🚀 Deployment
 
 The project is structured as a monorepo for maximum control:
 
