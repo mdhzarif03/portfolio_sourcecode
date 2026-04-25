@@ -1,0 +1,11 @@
+[build]
+  # This tells Netlify to jump into the client folder first
+  base = "client"
+  # This is the command it will run once inside /client
+  command = "npm run build"
+  # This is the folder it will serve (Next.js default)
+  publish = ".next"
+
+[[plugins]]
+  # This ensures Next.js features work on Netlify
+  package = "@netlify/plugin-nextjs"
